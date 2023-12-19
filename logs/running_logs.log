@@ -33,3 +33,37 @@
 [2023-11-16 16:23:04,293: INFO: main: >>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<
 
 x=============x]
+[2023-12-19 22:22:44,660: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-19 22:22:44,672: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-19 22:22:44,673: INFO: common: creatd directory at:artifacts]
+[2023-12-19 22:22:44,675: INFO: common: creatd directory at:artifacts/prepare_base_model]
+[2023-12-19 22:23:02,355: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-19 22:24:43,761: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-19 22:24:43,763: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-19 22:24:43,764: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-19 22:24:43,765: INFO: common: creatd directory at:artifacts]
+[2023-12-19 22:24:43,765: INFO: common: creatd directory at:artifacts/data_ingestion]
+[2023-12-19 22:24:43,766: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-19 22:25:01,993: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-19 22:25:02,545: INFO: main: >>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-12-19 22:28:06,030: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-19 22:28:06,033: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-19 22:28:06,034: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-19 22:28:06,035: INFO: common: creatd directory at:artifacts]
+[2023-12-19 22:28:06,035: INFO: common: creatd directory at:artifacts/data_ingestion]
+[2023-12-19 22:28:06,036: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-19 22:28:23,577: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-19 22:28:24,049: INFO: main: >>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-12-19 22:28:24,050: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-19 22:28:24,051: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-19 22:28:24,052: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-19 22:28:24,052: INFO: common: creatd directory at:artifacts]
+[2023-12-19 22:28:24,053: INFO: common: creatd directory at:artifacts/prepare_base_model]
+[2023-12-19 22:28:24,415: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-19 22:28:24,626: INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<
+
+x=============x]
