@@ -42,3 +42,35 @@ python -m venv "Kidney_Disease_Classification_Deep_Learning"
 ```bash
 pip install -r requirements.txt
 ```
+
+
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/ravikumarsinha234/Kidney_Disease_Classification_Deep_Learning.mlflow \
+MLFLOW_TRACKING_USERNAME=ravikumarsinha234 \
+MLFLOW_TRACKING_PASSWORD=77b378539ea9ef13a073d044d0f9b61f60ac7eb7 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/ravikumarsinha234/Kidney_Disease_Classification_Deep_Learning.mlflow
+
+export MLFLOW_TRACKING_USERNAME=ravikumarsinha234 
+
+export MLFLOW_TRACKING_PASSWORD=77b378539ea9ef13a073d044d0f9b61f60ac7eb7
+
+```

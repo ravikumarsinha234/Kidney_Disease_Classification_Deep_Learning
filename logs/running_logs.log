@@ -104,3 +104,126 @@ x=============x]
 [2023-12-21 19:58:49,653: INFO: main: >>>>>>>>>>> stage Training completed <<<<<<<<
 
 x=============x]
+[2023-12-22 13:56:46,480: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-22 13:56:46,497: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-22 13:56:46,499: INFO: common: creatd directory at:artifacts]
+[2023-12-22 13:57:11,701: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-22 13:57:13,160: INFO: builder_impl: Assets written to: C:\Users\ravik\AppData\Local\Temp\tmpzzi7aodg\model\data\model\assets]
+[2023-12-24 15:17:02,703: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-24 15:17:02,703: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-24 15:17:02,711: INFO: common: creatd directory at:artifacts]
+[2023-12-24 15:17:38,599: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-24 15:17:39,489: INFO: builder_impl: Assets written to: C:\Users\ravik\AppData\Local\Temp\tmp7vui_1ao\model\data\model\assets]
+[2023-12-24 19:17:26,096: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-24 19:17:26,110: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-24 19:17:26,112: INFO: common: creatd directory at:artifacts]
+[2023-12-24 19:18:02,007: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-24 19:18:03,107: INFO: builder_impl: Assets written to: C:\Users\ravik\AppData\Local\Temp\tmpq_enbhg4\model\data\model\assets]
+[2023-12-26 22:58:36,478: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-26 22:58:36,486: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 22:58:36,494: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 22:58:36,494: INFO: common: creatd directory at:artifacts]
+[2023-12-26 22:58:36,494: INFO: common: creatd directory at:artifacts/data_ingestion]
+[2023-12-26 22:58:36,494: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-26 22:58:55,542: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-26 22:58:56,499: INFO: main: >>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-12-26 22:58:56,499: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-26 22:58:56,499: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 22:58:56,499: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 22:58:56,499: INFO: common: creatd directory at:artifacts]
+[2023-12-26 22:58:56,515: INFO: common: creatd directory at:artifacts/prepare_base_model]
+[2023-12-26 22:58:57,270: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-26 22:58:57,588: INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<
+
+x=============x]
+[2023-12-26 22:58:57,602: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-26 22:58:57,602: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 22:58:57,602: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 22:58:57,602: INFO: common: creatd directory at:artifacts]
+[2023-12-26 22:58:57,609: INFO: common: creatd directory at:artifacts\training]
+[2023-12-26 22:59:57,105: INFO: main: >>>>>>>>>>> stage Training completed <<<<<<<<
+
+x=============x]
+[2023-12-26 22:59:57,105: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-12-26 22:59:57,113: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 22:59:57,113: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 22:59:57,113: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:00:13,012: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-26 23:00:13,864: INFO: builder_impl: Assets written to: C:\Users\ravik\AppData\Local\Temp\tmp9ly3setr\model\data\model\assets]
+[2023-12-26 23:01:16,493: INFO: main: >>>>>>>>>>> stage Model Evaluation stage completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:14:05,336: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-26 23:14:05,336: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:14:05,348: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:14:05,348: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:14:05,348: INFO: common: creatd directory at:artifacts/data_ingestion]
+[2023-12-26 23:14:05,348: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-26 23:14:26,582: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-26 23:14:27,402: INFO: main: >>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:14:27,402: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-26 23:14:27,402: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:14:27,402: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:14:27,402: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:14:27,402: INFO: common: creatd directory at:artifacts/prepare_base_model]
+[2023-12-26 23:14:28,031: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-26 23:14:28,378: INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:14:28,378: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-26 23:14:28,387: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:14:28,387: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:14:28,387: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:14:28,387: INFO: common: creatd directory at:artifacts\training]
+[2023-12-26 23:16:00,989: INFO: main: >>>>>>>>>>> stage Training completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:16:00,989: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-12-26 23:16:00,997: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:16:00,997: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:16:00,997: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:16:16,194: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-26 23:16:17,061: INFO: builder_impl: Assets written to: C:\Users\ravik\AppData\Local\Temp\tmpzmit76cq\model\data\model\assets]
+[2023-12-26 23:17:11,944: INFO: main: >>>>>>>>>>> stage Model Evaluation stage completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:18:25,788: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-26 23:18:25,796: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:18:25,807: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:18:25,807: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:18:25,807: INFO: common: creatd directory at:artifacts/data_ingestion]
+[2023-12-26 23:18:25,807: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-26 23:18:46,320: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-26 23:18:46,979: INFO: main: >>>>>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:18:46,979: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-26 23:18:46,979: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:18:46,984: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:18:46,984: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:18:46,984: INFO: common: creatd directory at:artifacts/prepare_base_model]
+[2023-12-26 23:18:47,600: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-26 23:18:47,975: INFO: main: >>>>>>>>>>> stage Prepare base model completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:18:47,975: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-26 23:18:47,980: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:18:47,980: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:18:47,982: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:18:47,982: INFO: common: creatd directory at:artifacts\training]
+[2023-12-26 23:24:03,911: INFO: main: >>>>>>>>>>> stage Training completed <<<<<<<<
+
+x=============x]
+[2023-12-26 23:24:03,911: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-12-26 23:24:03,911: INFO: common: yaml file: config\config.yaml loaded succesfully]
+[2023-12-26 23:24:03,911: INFO: common: yaml file: params.yaml loaded succesfully]
+[2023-12-26 23:24:03,911: INFO: common: creatd directory at:artifacts]
+[2023-12-26 23:24:46,234: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-26 23:24:47,202: INFO: builder_impl: Assets written to: C:\Users\ravik\AppData\Local\Temp\tmpwsu0hqqw\model\data\model\assets]
+[2023-12-26 23:25:48,312: INFO: main: >>>>>>>>>>> stage Model Evaluation stage completed <<<<<<<<
+
+x=============x]
